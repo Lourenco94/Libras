@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d6e9ff; /* azul pastel claro */
+    color: #1a2935; /* azul escuro para contraste */
+    margin: 40px auto;
+    max-width: 720px;
+    padding: 30px 40px;
+    line-height: 1.7;
+  }
+  
+  h1 {
+    color: #4a90e2; /* azul médio, destaque suave */
+    text-align: center;
+    margin-bottom: 36px;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 18px;
+    background-color: #f0f8ff; /* fundo azul clarinho */
+    padding: 24px 28px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(74, 144, 226, 0.2); /* sombra azul suave */
+    border: 1px solid #a8c9ff; /* borda azul clara */
+    color: #2e4057; /* azul escuro para texto */
+    font-weight: 500;
+  }
+  

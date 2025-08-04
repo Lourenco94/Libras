@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Trecho de Livro com Acessibilidade VLibras</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Trecho do Livro: “O Pequeno Príncipe”</h1>
+
+  <p>
+    “Foi então que o pequeno príncipe encontrou a raposa. Ela lhe pediu para ser cativada, explicando que, para isso, era preciso paciência: sentar-se na relva, um pouco distante, olhar com o canto dos olhos e, aos poucos, aproximar-se dia após dia. A raposa explicou que, quando alguém é cativado, cria-se um laço único no mundo. Ele seria, para ela, diferente de todos os meninos; ela, para ele, diferente de todas as raposas.
+
+No dia da despedida, a raposa chorou. O príncipe ficou triste e disse que ela não ganhara nada com aquilo. Mas a raposa revelou: ganhou o trigo, que agora a fazia lembrar seus cabelos dourados. Ganhou um coração cativado.
+
+Foi nesse momento que o pequeno príncipe compreendeu: o essencial é invisível aos olhos. Só se vê bem com o coração.” 
+  </p>
+
+  <!-- VLibras widget -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+</body>
+</html>
